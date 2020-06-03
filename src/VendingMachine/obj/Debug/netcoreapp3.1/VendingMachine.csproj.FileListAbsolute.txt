@@ -1,0 +1,13 @@
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.exe
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.deps.json
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.runtimeconfig.json
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.runtimeconfig.dev.json
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.dll
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\bin\Debug\netcoreapp3.1\VendingMachine.pdb
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.csprojAssemblyReference.cache
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.AssemblyInfoInputs.cache
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.AssemblyInfo.cs
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.dll
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.pdb
+C:\Users\user\Documents\repos\oop-practice-cs\src\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.genruntimeconfig.cache
