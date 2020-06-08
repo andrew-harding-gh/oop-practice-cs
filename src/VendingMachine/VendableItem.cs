@@ -2,15 +2,18 @@ using System;
 
 abstract class VendableItem
 {
-    private string _catalog_code;
-    private double _dimx;
-    private double _dimy;
-    private double _dimz;
-    public bool liquid { get; set; }
-    public string name { get; set; }
-
+    private string name;
+    private bool is_liquid;
     private double _price;
-    public double price
+
+    public VendableItem (string name, double price)
+    {
+        this.name = name;
+        Price = price;
+    }
+
+    public virtual string CatalogCode { get; set; }
+    public double Price
     {
         get { return _price; }
         set
@@ -25,36 +28,4 @@ abstract class VendableItem
             }
         }
     }
-
-    public double dim_x
-    {
-        get { return _dimx; }
-        set { _dimx = dim_check (value); }
-
-    }
-    public double dim_y
-    {
-        get { return _dimy; }
-        set { _dimy = dim_check (value); }
-
-    }
-    public double dim_z
-    {
-        get { return _dimz; }
-        set { _dimz = dim_check (value); }
-
-    }
-
-    private static double dim_check (double dim)
-    {
-        if (dim > 0)
-        {
-            return dim;
-        }
-        else
-        {
-            throw new Exception ("Item can only have a positive nonzero dimensions!");
-        }
-    }
-
 }
