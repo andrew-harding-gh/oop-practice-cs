@@ -2,10 +2,15 @@
 
 class Program
 {
-    static void Main (string[] args)
+    static void Main ()
     {
-        Console.WriteLine ("Hello World!");
-
-        var vm = new VendingMachine ();
+        BeverageItem[] beverages = {
+            new BeverageItem ("coke", 1.2, "B69"),
+            new BeverageItem ("mexican coke", 1.5, "B690")
+        };
+        foreach (var b in beverages)
+        {
+            System.Console.WriteLine (b);
+        }
     }
 }

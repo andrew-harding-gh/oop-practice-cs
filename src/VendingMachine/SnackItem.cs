@@ -1,12 +1,12 @@
 using System;
 
-class BeverageItem : VendableItem
+class SnackItem : VendableItem
 {
 
-    private bool is_liquid = true;
+    private bool is_liquid = false;
     private string catalog_code;
 
-    public BeverageItem (string name, double price, string code) : base (name, price)
+    public SnackItem (string name, double price, string code) : base (name, price)
     {
         CatalogCode = code;
     }
@@ -16,9 +16,9 @@ class BeverageItem : VendableItem
         get { return this.catalog_code; }
         set
         {
-            if (value[0] != 'B')
+            if (value[0] != 'S')
             {
-                throw new ArgumentException ("All beverage items must begin their code with `B`");
+                throw new ArgumentException ("All food items must begin their code with `S`");
             }
             else
             {
